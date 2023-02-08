@@ -1,0 +1,152 @@
+.backgroundcolor {
+    background: linear-gradient(90deg, #242657, #242657);
+}
+
+div {
+    font-family: "Adam Medium", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inlineplus {
+    display: inline-block;
+}
+
+.cachetoi {
+    display: none;
+}
+
+#voirplus {
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+.photmaindim {
+    border: 1px solid white;
+    display: inline-block;
+    max-width: 65%;
+    height: 280px;
+}
+
+.autresphotos {
+    border: 2px solid white;
+    display: inline-block;
+}
+
+.blocphoto {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.petitephotos {
+    display: block;
+    width: 70px;
+    margin: 10px;
+    max-height: 50px;
+}
+
+.ui-btn {
+    border-radius: 20px;
+    ;
+}
+
+ul .ui-btn {
+    border-radius: 2px;
+    ;
+}
+
+input {
+    color: #242657;
+}
+
+.photopreview {
+    width: 10em;
+}
+
+.autrebouton {
+    border: 1px solid #242657;
+    background-color: #ffffff;
+    color: #242657;
+}
+
+.blochaut {
+    background-color: #777777;
+    width: 100%;
+    height: 12em;
+    text-align: center;
+}
+
+.blocprofil {
+    background-color: #777777;
+    width: 8em;
+    border: 1px solid #fff;
+    height: 8em;
+    border-radius: 8em;
+}
+
+.blocbas {
+    background-color: #ddd9d9;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    height: 4em;
+}
+
+.msgitem {
+    margin: 0px;
+    padding: 5px;
+    width: 80%;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.leftitem {
+    background-color: #e9E9E9;
+    float: left;
+    color: #111111;
+    border-radius: 0px 13px 13px 13px;
+    padding: 5px;
+}
+
+.rightitem {
+    background: linear-gradient(90deg, #242657, #242657);
+    float: right;
+    color: #ffffff;
+    border-radius: 13px 0px 13px 13px;
+    padding: 5px;
+}
+
+.left1 {
+    float: left;
+    width: 10%;
+}
+
+.left {
+    float: left;
+    width: 74%;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+.right {
+    float: right;
+    width: 10%;
+    margin-right: 0em;
+}
+
+.ui-input-search {
+    margin: 0;
+}
+
+button.imgbtn {
+    margin: 0;
+}
+
+.blocsearch {
+    text-align: center;
+}

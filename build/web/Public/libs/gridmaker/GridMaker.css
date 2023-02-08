@@ -1,0 +1,100 @@
+/* ENGINE CSS - yu can change padding values!!*/
+
+.grid-system-container .grid-row {
+    width: 25%;
+    padding: 4px;
+    text-align: center;
+    display: block;
+    float: left;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    border-left: 0px solid #777;
+}
+
+.grid-system-container.row-1 .grid-row {
+    width: 100%;
+}
+
+.grid-system-container.row-2 .grid-row {
+    width: 50%;
+}
+
+.grid-system-container.row-3 .grid-row {
+    width: 33.33%;
+}
+
+.grid-system-container.row-4 .grid-row {
+    width: 25%;
+}
+
+.grid-system-container.row-5 .grid-row {
+    width: 20%;
+}
+
+.grid-system-container.row-1 #row2,
+.grid-system-container.row-1 #row3,
+.grid-system-container.row-1 #row4,
+.grid-system-container.row-1 #row5,
+.grid-system-container.row-2 #row3,
+.grid-system-container.row-2 #row4,
+.grid-system-container.row-2 #row5,
+.grid-system-container.row-3 #row4,
+.grid-system-container.row-3 #row5,
+.grid-system-container.row-4 #row5 {
+    display: none;
+}
+
+
+/* Personal style code */
+
+.grid-system-container img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-system-container .autrenom {
+    color: #000;
+    float: left;
+    font-weight: bold;
+}
+
+.grid-system-container .autreprix {
+    color: rgb(241, 13, 13);
+    float: left;
+    font-weight: bold;
+}
+
+.grid-system-container .autredesc {
+    color: #000;
+    font-size: smaller;
+    float: left;
+}
+
+.grid-system-container p {
+    color: #000;
+}
+
+.grid-system-container .panier {
+    color: #000;
+    position: relative;
+    padding: 10px;
+    top: 1px;
+    left: 55px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, #ff0000, #FFDD45);
+}
+
+.grid-system-container .reduction {
+    color: #ffffff;
+    font-size: 10px;
+    position: relative;
+    padding: 5px;
+    top: 0px;
+    left: 55px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff0000, #FFDD45);
+}
